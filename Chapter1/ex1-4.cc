@@ -12,8 +12,7 @@
 #include <fstream>
 using std::ifstream;
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     double l, ff, xa;
     int n;
     std::cin >> n;
