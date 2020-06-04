@@ -4,7 +4,6 @@
 
 #include <iostream>
 #include <fstream>
-#include <vector>
 using std::ifstream;
 
 int main(int argc, char **argv) {
@@ -14,7 +13,7 @@ int main(int argc, char **argv) {
     double x[40] = {0};
     double f[40][40] = {0};
     ifstream infile;
-    infile.open("data_1-9.txt");
+    infile.open("data_Newton.txt");
     for (auto m = 0; m <= n; ++m) {
         for (auto k = 0; k < 2; ++k) {
             if (k == 0) {

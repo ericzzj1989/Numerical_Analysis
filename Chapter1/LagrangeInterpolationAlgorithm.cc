@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
 
     double data[30][2] = {0};
     ifstream infile;
-    infile.open("data3.txt");
+    infile.open("data_Lagrange.txt");
     for (int m = 0; m <= n; ++m) {
         for (int j = 0; j < 2; ++j) {
             infile >> data[m][j];
