@@ -1,4 +1,4 @@
-/* ex1-4.cc: Lagrange Interpolation Algorithm
+/* LagrangeInterpolationAlgorithm.cc: Lagrange Interpolation Algorithm
  * Read in data file of data1/2/3.txt which has n point values
  * and the value of interpolating point xa. Based on Lagrange
  * Interpolation algorithm to compute f(xa) and output its value.
