@@ -9,10 +9,8 @@
 #define f(x) (0.0000115 * pow(x, 2) + 0.000014 * pow(x, 1.5) - 0.01962)
 
 int main(int argc, char **argv) {
-    double x, a, b, p, h;
-    int i = 1;
-    a = 37;
-    b = 38;
+    double x, a{ 37 }, b{ 38 }, p, h;
+    int i{ 1 };
 
     std::cout << "i    a(i)    b(i)    p(i)    f(p(i))    h(i)" << std::endl;
 
