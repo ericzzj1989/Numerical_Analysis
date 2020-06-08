@@ -7,7 +7,6 @@
 #include <cmath>
 #define MAX 50
 #define TOL 0.001
-#define PI 3.14159
 #define f(x) (cos(x) - x)
 #define ff(x) (-sin(x) - 1)
 
